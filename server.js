@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors({origin:"https://emailbulk.netlify.app/"}));
+app.use(cors({origin:"https://emailbulk.netlify.app"}));
 
 // test get
 app.get("/api/hello", (req,res)=> {
